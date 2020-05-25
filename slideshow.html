@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+   <style> img {max-width: 30%; height: auto;} </style> 
+      <title>change picture</title>
+      <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+ 
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "Vessel1.jpg";
+          images[1] = "greyhound 1.jpg";
+          images[2] = "bee.jpg";
+          images[3] = "vertiblock1.jpg";
+      </script>
+   </head>
+
+   <body onload = "startTimer()">
+       <img id="img" src="Vessel1.jpg"/>
+   </body>
+</html>
