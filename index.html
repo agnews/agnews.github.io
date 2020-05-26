@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style> img {transform: rotate(7deg); max-width: 45%; height: auto; margin: 20px; position: absolute; right: 5px; top: 90px} 
-    div {width: 850px; height: 600px; top: 0; background: linear-gradient( black, white);} 
+    <style> 
+    body {padding: 0px; text-align:left; width: 100%; max-width:800px; margin: 0px;}
+    img {transform: rotate(7deg); max-width: 45%; height: auto; margin: 20px; position: absolute; right: 5px; top: 90px} 
+    #container {padding: 0px; background: linear-gradient( black, white); margin: 0px;} 
     h1 {transform: rotate(90deg);position:absolute; left: 240px; top: 505px; display: block; padding: 5px; color: black; background-color: white} 
-    .whitebackground {background-color:white; color:black; margin: 0; padding; 0}
-    .center {text-align: center} </style> 
+    .center {text-align: center} 
+    </style> 
     <title>Sam Agnew</title>
     <script type = "text/javascript">
         function displayNextImage() {
@@ -29,9 +31,8 @@
         images[3] = "vertiblock1.jpg";
     </script>
 </head>
-<div>
-<body onload = "startTimer()" 
-style="position:absolute; top:0px; text-align:left; width: 100%; max-width:800px; margin: auto">
+<body onload = "startTimer()">
+<div id="container">
  <img id="img" src="Vessel1.jpg"/>
 <h1><a href="https://www.eyeglasses.com/" style="text-decoration: none; color: black"> Thank you for visiting :) </a></h1>
 <p class= "center" style= "color: white"> My name is Sam Agnew</p>
@@ -45,6 +46,6 @@ style="position:absolute; top:0px; text-align:left; width: 100%; max-width:800px
 <h3><a href="paintings.html" style="text-decoration: none; color: black">7. Link to my Paintings </a></h3>
 <h3><a href="speculation.html" style="text-decoration: none; color: black"> 8. Link to my lecture about Speculation</a></h3>
 <h3><a href="lookers.html" style="text-decoration: none; color: black">9. Lookers </a></h3>
-</body>
 </div>
+</body>
 </html>
