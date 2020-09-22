@@ -1,85 +1,63 @@
 <!DOCTYPE html>
 <html>
-    border: 10px solid transparent; border-image: url('flame.jpg') 100 stretch
-<head>
-    <style> 
-    body {background: linear-gradient( black, white); padding: 0px; text-align:left; background-repeat: no-repeat; background-attachment: 100%; height: 100%; margin: 0px;}
-    img {transform: rotate(7deg); z-index: -2; max-width: 40%; height: auto; margin: 20px; position: absolute; right: 5%; top: 15%} 
-    #container {padding: 0px; width: 100%; max-width:800px; margin: auto;} 
-    h1 {transform: rotate(-5deg); position: absolute; left: 50%; top: 75%; display: block; padding: 5px; color: black; background-color: white} 
-    .center {text-align: center}  
-    .font-face {font-family: 'sefarad'; src: url ('sefarad.ttf');} 
-    #right {z-index: -3; text-align: right; position: relative; right: 5%}
-    .round {border-radius: 200px; border: 15px solid rgb(66, 204, 66)}
-    .excerpt {font-size: 15px; text-align: left; max-width: 40%}
-    </style> 
-    <title>Sam Agnew</title>
     
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Sam Agnew</title>
 </head>
+
 <body onload = "startTimer()">
-<div id="container">
- <img id="img" src="Vessel1.jpg"/>
-</div>
-<div id="container2">
- <img id="img2" src="e1.png"/>
-</div>
-<p class= "center" style= "color: white"> My name is Sam Agnew</p>
-<p class= "center" style= "color: white">My email is <a href=mailto:sam.c.agnew@gmail.com style="color: white">sam.c.agnew@gmail.com</a></a></p>
-<h3 class= "font-face"><a href="essays.html" style="text-decoration: none; color: white; ">1. Writing </a></h3>
-<h3><a href="sculpture.html" style="text-decoration: none; color:white">2. Link to my sculptures </a></h3>
-<h3><a href="pirellitirebuilding.html" style="text-decoration: none; color: white">3. Videos </a></h3>
-<h3><a href="paintings.html" style="text-decoration: none; color: white">4. Link to my paintings </a></h3>
+  <div id="container">
+    <img id="img" src="Vessel1.jpg"/>
+  </div>
+  <div id="container2">
+    <img id="img2" src="./textexcerpts/e1.png"/>
+  </div>
+  <p class= "center"> My name is Sam Agnew</p>
+  <p class= "center">My email is <a href="mailto:sam.c.agnew@gmail.com">sam.c.agnew@gmail.com</a></a></p>
+  <h3 class= "font-face"><a href="essays.html">1. Writing </a></h3>
+  <h3><a href="sculpture.html">2. Link to my sculptures </a></h3>
+  <h3><a href="pirellitirebuilding.html">3. Videos </a></h3>
+  <h3><a href="paintings.html">4. Link to my paintings </a></h3>
 </body>
+
 <script type = "text/javascript">
-        function displayNextImage() {
-            x = (x === images.length - 1) ? 0 : x + 1;
-            document.getElementById("img").src = images[x];
-        }
+    function displayNextImage() {
+        console.log("test")
+        x = (x === images.length - 1) ? 0 : x + 1;
+        document.getElementById("img").src = images[x];
+    }
 
-        function displayPreviousImage() {
-            x = (x <= 0) ? images.length - 1 : x - 1;
-            document.getElementById("img").src = images[x];
-        }
+    function displayNextImage2() {
+        x = (x === images.length - 1) ? 0 : x + 1;
+        document.getElementById("img2").src = images2[x];
+    }
 
-        function startTimer() {
-            setInterval(displayNextImage, 3000);
-        }
+    function startTimer() {
+        setInterval(displayNextImage, 3000);
+        setInterval(displayNextImage2, 5000);
+    }
 
-        var images = [], x = -1;
-        images[0] = "Vessel1.jpg";
-        images[1] = "greyhound 1.jpg";
-        images[2] = "bee.jpg";
-        images[3] = "vertiblock1.jpg";
-        images[4] = "pollock.jpg";
-        images[5] = "neo-sheep.jpg";
-        images[6] = "lettera.jpg";
-        images[7] = "hummingbird.jpg";
-        images[8] = "honeycomb.jpg";
-    </script>
-    <script type = "text/javascript">
-        function displayNextImage2() {
-            x = (x === images.length - 1) ? 0 : x + 1;
-            document.getElementById("img2").src = images2[x];
-        }
+    var images = [], x = -1;
+    images[0] = "Vessel1.jpg";
+    images[1] = "greyhound 1.jpg";
+    images[2] = "bee.jpg";
+    images[3] = "vertiblock1.jpg";
+    images[4] = "pollock.jpg";
+    images[5] = "neo-sheep.jpg";
+    images[6] = "lettera.jpg";
+    images[7] = "hummingbird.jpg";
+    images[8] = "honeycomb.jpg";
 
-        function displayPreviousImage2() {
-            x = (x <= 0) ? images.length - 1 : x - 1;
-            document.getElementById("img2").src = images2[x];
-        }
-
-        function startTimer() {
-            setInterval(displayNextImage2, 5000);
-        }
-
-        var images2 = [], x = -1;
-        images2[0] = "e1.png";
-        images2[1] = "e2.png";
-        images2[2] = "e3.png";
-        images2[3] = "e4.png";
-        images2[4] = "e5.png";
-        images2[5] = "e6.png";
-        images2[6] = "e7.png";
-        images2[7] = "e8.png";
-        images2[8] = "e9.png";
-    </script>
+    var images2 = [], x = -1;
+    images2[0] = "./textexcerpts/e1.png";
+    images2[1] = "./textexcerpts/e2.png";
+    images2[2] = "./textexcerpts/e3.png";
+    images2[3] = "./textexcerpts/e4.png";
+    images2[4] = "./textexcerpts/e5.png";
+    images2[5] = "./textexcerpts/e6.png";
+    images2[6] = "./textexcerpts/e7.png";
+    images2[7] = "./textexcerpts/e8.png";
+    images2[8] = "./textexcerpts/e9.png";
+</script>
 </html>

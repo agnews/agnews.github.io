@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(black, white);
+  padding: 0px;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-attachment: 100%;
+  margin: 0px;
+  color: white;
+  min-height: 100%;
+  border-image: url('./flame.jpg') 100 stretch;
+}
+html {
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+  transform: rotate(7deg);
+  z-index: -2;
+  max-width: 40%;
+  height: auto;
+  margin: 20px;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+#container {
+  padding: 0px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+h1 {
+  transform: rotate(-5deg);
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  display: block;
+  padding: 5px;
+  color: black;
+  background-color: white;
+}
+.center {
+  text-align: center;
+}
+.font-face {
+  font-family: "sefarad";
+  src: url ("sefarad.ttf");
+}
+#right {
+  z-index: -3;
+  text-align: right;
+  position: relative;
+  right: 5%;
+}
+.round {
+  border-radius: 200px;
+  border: 15px solid rgb(66, 204, 66);
+}
+.excerpt {
+  font-size: 15px;
+  text-align: left;
+  max-width: 40%;
+}
