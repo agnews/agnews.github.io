@@ -10,7 +10,7 @@ function displayNextImage2() {
 
 function startTimer() {
     setInterval(displayNextImage, 3000);
-    setInterval(displayNextImage2, 7000);
+    setInterval(displayNextImage2, 9000);
 }
 
 var images = [], x = -1;
@@ -18,7 +18,7 @@ images[0] = "Vessel1.jpg";
 images[1] = "greyhound 1.jpg";
 images[2] = "bee.jpg";
 images[3] = "vertiblock1.jpg";
-images[4] = "pollock.jpg";
+images[4] = "jacksonpollock.jpg";
 images[5] = "neosheep.jpg";
 images[6] = "lettera.jpg";
 images[7] = "hummingbird.jpg";
