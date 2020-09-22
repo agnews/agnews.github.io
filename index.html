@@ -14,7 +14,23 @@
     .excerpt {font-size: 15px; text-align: left; max-width: 40%}
     </style> 
     <title>Sam Agnew</title>
-    <script type = "text/javascript">
+    
+</head>
+<body onload = "startTimer()">
+<div id="container">
+ <img id="img" src="Vessel1.jpg"/>
+</div>
+<div id="container2">
+ <img id="img2" src="e1.png"/>
+</div>
+<p class= "center" style= "color: white"> My name is Sam Agnew</p>
+<p class= "center" style= "color: white">My email is <a href=mailto:sam.c.agnew@gmail.com style="color: white">sam.c.agnew@gmail.com</a></a></p>
+<h3 class= "font-face"><a href="essays.html" style="text-decoration: none; color: white; ">1. Writing </a></h3>
+<h3><a href="sculpture.html" style="text-decoration: none; color:white">2. Link to my sculptures </a></h3>
+<h3><a href="pirellitirebuilding.html" style="text-decoration: none; color: white">3. Videos </a></h3>
+<h3><a href="paintings.html" style="text-decoration: none; color: white">4. Link to my paintings </a></h3>
+</body>
+<script type = "text/javascript">
         function displayNextImage() {
             x = (x === images.length - 1) ? 0 : x + 1;
             document.getElementById("img").src = images[x];
@@ -40,41 +56,30 @@
         images[7] = "hummingbird.jpg";
         images[8] = "honeycomb.jpg";
     </script>
-</head>
-<body onload = "startTimer()">
-<div id="container">
- <img id="img" src="Vessel1.jpg"/> </div>
-<p class= "center" style= "color: white"> My name is Sam Agnew</p>
-<p class= "center" style= "color: white">My email is <a href=mailto:sam.c.agnew@gmail.com style="color: white">sam.c.agnew@gmail.com</a></a></p>
-<h3 class= "font-face"><a href="essays.html" style="text-decoration: none; color: white; ">1. Writing </a></h3>
-<h3><a href="sculpture.html" style="text-decoration: none; color:white">2. Link to my sculptures </a></h3>
-<h3><a href="pirellitirebuilding.html" style="text-decoration: none; color: white">3. Videos </a></h3>
-<h3><a href="paintings.html" style="text-decoration: none; color: white">4. Link to my paintings </a></h3>
-</body>
+    <script type = "text/javascript">
+        function displayNextImage2() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("img2").src = images2[x];
+        }
+
+        function displayPreviousImage2() {
+            x = (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("img2").src = images2[x];
+        }
+
+        function startTimer() {
+            setInterval(displayNextImage2, 5000);
+        }
+
+        var images2 = [], x = -1;
+        images2[0] = "e1.png";
+        images2[1] = "e2.png";
+        images2[2] = "e3.png";
+        images2[3] = "e4.png";
+        images2[4] = "e5.png";
+        images2[5] = "e6.png";
+        images2[6] = "e7.png";
+        images2[7] = "e8.png";
+        images2[8] = "e9.png";
+    </script>
 </html>
-<script type = "text/javascript">
-    function displayNextImage() {
-        x = (x === images.length - 1) ? 0 : x + 1;
-        document.getElementById("img").src = images[x];
-    }
-
-    function displayPreviousImage() {
-        x = (x <= 0) ? images.length - 1 : x - 1;
-        document.getElementById("img").src = images[x];
-    }
-
-    function startTimer() {
-        setInterval(displayNextImage, 5000);
-    }
-
-    var images = [], x = -1;
-    images[0] = "e1.png";
-    images[1] = "e2.png";
-    images[2] = "e3.png";
-    images[3] = "e4.png";
-    images[4] = "e5.png";
-    images[5] = "e6.png";
-    images[6] = "e7.png";
-    images[7] = "e8.png";
-    images[8] = "e9.png";
-</script>
