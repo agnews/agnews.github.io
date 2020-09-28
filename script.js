@@ -7,17 +7,11 @@ function displayNextImage2() {
     x = (x === images.length - 1) ? 0 : x + 1;
     document.getElementById("img2").src = images2[x];
 
-
-function displayNextImage2() {
-    x = (x === images.length - 1) ? 0 : x + 1;
-    document.getElementById("img3").src = images2[x];
-}
 }
 
 function startTimer() {
-    setInterval(displayNextImage, 3000);
-    setInterval(displayNextImage2, 15000);
-    setInterval(displayNextImage3, 1000);
+    setInterval(displayNextImage, 6000);
+    setInterval(displayNextImage2, 11000);
 
 }
 
@@ -31,6 +25,7 @@ images[5] = "neosheep.jpg";
 images[6] = "lettera.jpg";
 images[7] = "hummingbird.jpg";
 images[8] = "honeycomb.jpg";
+images[9] = "./videoexcerpts/v1.png";
 
 var images2 = [], x = -1;
 images2[0] = "./textexcerpts/e1.png";
@@ -43,8 +38,3 @@ images2[6] = "./textexcerpts/e7.png";
 images2[7] = "./textexcerpts/e8.png";
 images2[8] = "./textexcerpts/e9.png";
 images2[9] = "./textexcerpts/e10.png";
-
-var images3 = [], x = -1;
-images2[0] = "./videoexcerpts/v1.png";
-images2[1] = "./videoexcerpts/v2.png";
-images2[2] = "./videoexcerpts/v3.png";

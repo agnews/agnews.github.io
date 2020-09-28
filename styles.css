@@ -12,13 +12,15 @@ a {
 }
 img {
   min-width: 400px;
-  max-width: 450px;
+  max-width: 350px;
+  text-align: center; 
 
 }
 
 p {
   color: white;
   text-align: center;
+  transform: rotate(11deg);
   z-index: 1;
 }
 
@@ -26,6 +28,8 @@ h3 {
   color: white;
   text-align: center;
   z-index: 2;
+  transform: rotate(7deg);
+
 
 }
 
@@ -38,10 +42,6 @@ h3 {
 }
 .center {
   text-align: center;
-  transform: rotate(7deg);
-  position: absolute;
-  top: 5%; 
-  z-index: 0;
 
 }
 
@@ -56,11 +56,9 @@ h3 {
   font-family: "sefarad";
   src: url ("sefarad.ttf");
 }
-.left {
-  position: absolute;
-  top: 2%; 
-  right: 10%;
-  transform: rotate(7deg);
+.text {
+  transform: rotate(-10deg);
+  text-align:center;
 
 }
 .round {
@@ -71,5 +69,13 @@ h3 {
   font-size: 15px;
   text-align: left;
   max-width: 40%;
+}
+
+.image {
+  min-width: 400px;
+  max-width: 450px;
+  text-align:center;
+  transform: rotate(-3deg);
+
 }
 
