@@ -23,7 +23,7 @@ p {
 h3 {
   color: white;
   text-align: center;
-  transform: rotate(7deg);
+  transform: rotate(5deg);
 
 }
 
@@ -32,13 +32,13 @@ h3 {
   src: url ("sefarad.ttf");
 }
 .text {
-  transform: rotate(-10deg);
+  transform: rotate(-11deg);
   text-align:center;
 
 }
 
 .image {
-   transform: rotate(-3deg);
+   transform: rotate(-5deg);
     border-radius: 50%;
     display: flex;
     flex-direction: column;
