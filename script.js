@@ -16,14 +16,18 @@ function startTimer() {
 }
 
 var images = [], x = -1;
-images[0] = "Vessel1.jpg";
-images[1] = "greyhound 1.jpg";
-images[2] = "bee.jpg";
-images[3] = "vertiblock1.jpg";
-images[4] = "neosheep.jpg";
-images[5] = "hummingbird.jpg";
-images[6] = "./videoexcerpts/v1.png";
+images[0] = "./videoexcerpts/v3.png";
+images[1] = "Vessel1.jpg";
+images[2] = "greyhound 1.jpg";
+images[3] = "bee.jpg";
+images[4] = "./videoexcerpts/v4.png";
+images[5] = "vertiblock1.jpg";
+images[6] = "neosheep.jpg";
 images[7] = "wild rabbit.png";
+images[8] = "hummingbird.jpg";
+images[9] = "./videoexcerpts/v2.png";
+images[10] = "./videoexcerpts/v5.png";
+
 
 
 var images2 = [], x = -1;
