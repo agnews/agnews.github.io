@@ -20,12 +20,11 @@ images[0] = "Vessel1.jpg";
 images[1] = "greyhound 1.jpg";
 images[2] = "bee.jpg";
 images[3] = "vertiblock1.jpg";
-images[4] = "jacksonpollock.jpg";
 images[5] = "neosheep.jpg";
-images[6] = "lettera.jpg";
-images[7] = "hummingbird.jpg";
-images[8] = "honeycomb.jpg";
-images[9] = "./videoexcerpts/v1.png";
+images[6] = "hummingbird.jpg";
+images[7] = "./videoexcerpts/v1.png";
+images[8] = "wild rabbit.png";
+
 
 var images2 = [], x = -1;
 images2[0] = "./textexcerpts/e1.png";
