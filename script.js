@@ -27,6 +27,7 @@ images[7] = "wild rabbit.png";
 images[8] = "hummingbird.jpg";
 images[9] = "./videoexcerpts/v2.png";
 images[10] = "./videoexcerpts/v5.png";
+images [11] = "basketballshoes.jpg";
 
 
 
