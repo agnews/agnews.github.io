@@ -28,10 +28,10 @@ h3 {
 
 .font-face {
   font-family: "sefarad";
-  src: url ("sefarad.ttf"),
-  url (sefarad.otf),
-  url (sefarad.woff),
-  url (sefarad.woff2);
+  src: url ('sefarad.ttf'),
+  url ('sefarad.otf') format ('otf'),
+  url ('sefarad.woff') format ('woff'),
+  url ('sefarad.woff2') format ('woff2');
 }
 .text {
   transform: rotate(-11deg);
