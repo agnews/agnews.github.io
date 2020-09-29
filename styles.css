@@ -28,9 +28,7 @@ h3 {
 
 .font-face {
   font-family: "sefarad";
-  src: url ('sefarad.ttf');
-  src: url ('sefarad.woff');
-  src: url ('sefarad.woff2');
+  src: url('sefarad.ttf') format('truetype'), url('sefarad.woff') format('woff'), url('sefarad.woff2') format('woff2');
 }
 .text {
   transform: rotate(-11deg);
