@@ -23,22 +23,20 @@ images[3] = "bee.jpg";
 images[4] = "./videoexcerpts/v4.png";
 images[5] = "vertiblock1.jpg";
 images[6] = "neosheep.jpg";
-images[7] = "wild rabbit.png";
-images[8] = "hummingbird.jpg";
-images[9] = "./videoexcerpts/v2.png";
-images[10] = "./videoexcerpts/v5.png";
-images [11] = "basketballshoes.jpg";
+images[7] = "hummingbird.jpg";
+images[8] = "./videoexcerpts/v2.png";
+images[9] = "./videoexcerpts/v5.png";
+images [10] = "basketballshoes.jpg";
 
 
 
 var images2 = [], x = -1;
-images2[0] = "./textexcerpts/e1.png";
-images2[1] = "./textexcerpts/e2.png";
-images2[2] = "./textexcerpts/e3.png";
-images2[3] = "./textexcerpts/e4.png";
-images2[4] = "./textexcerpts/e5.png";
-images2[5] = "./textexcerpts/e6.png";
-images2[6] = "./textexcerpts/e7.png";
-images2[7] = "./textexcerpts/e8.png";
-images2[8] = "./textexcerpts/e9.png";
-images2[9] = "./textexcerpts/e10.png";
+images2[0] = "./textexcerpts/e2.png";
+images2[1] = "./textexcerpts/e3.png";
+images2[2] = "./textexcerpts/e4.png";
+images2[3] = "./textexcerpts/e5.png";
+images2[4] = "./textexcerpts/e6.png";
+images2[5] = "./textexcerpts/e7.png";
+images2[6] = "./textexcerpts/e8.png";
+images2[7] = "./textexcerpts/e9.png";
+images2[8] = "./textexcerpts/e10.png";
