@@ -9,20 +9,24 @@ a {
     color: white;
 }
 img {
-  min-width: 450px;
-  max-width: 450px;
+  width:100%; 
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
 }
 
 p {
   color: white;
   text-align: center;
-  transform: rotate(11deg);
+  transform: rotate(26deg);
 }
 
 h3 {
   color: white;
   text-align: center;
-  transform: rotate(5deg);
+  transform: rotate(32deg);
 
 }
 
